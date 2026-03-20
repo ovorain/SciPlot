@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# Data & Figures
+# Note: You might want to keep sample data but ignore large datasets
+# data/raw/*
+# !data/raw/.gitkeep
+figures/*.png
+!figures/.gitkeep
+
+# System
+Thumbs.db
+Desktop.ini

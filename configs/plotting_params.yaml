@@ -1,0 +1,27 @@
+# 绘图框架核心参数配置
+
+# 导出配置
+export:
+  dpi: 600
+  format: "png"
+  transparent: false
+
+# 字体配置 (严格 8pt)
+font:
+  size: 8
+  family: "serif"
+  chinese: "SimSun"
+  english: "Times New Roman"
+
+# 默认尺寸 (单位: cm)
+layout:
+  single: [12, 8]
+  "2x1": [15, 7]
+  "3x1": [15, 6]
+  "2x2": [15, 12]
+
+# 坐标轴配置
+axes:
+  linewidth: 0.8
+  tick_direction: "in"
+  y_tick_count: 5

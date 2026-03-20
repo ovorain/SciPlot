@@ -1,0 +1,11 @@
+name: sciplot_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - matplotlib>=3.5.0
+  - numpy>=1.20.0
+  - pandas>=1.4.0
+  - scipy>=1.7.0
+  - pip
